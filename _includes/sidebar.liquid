@@ -1,7 +1,7 @@
 {% assign files = site.content_sidebar | sort: "path" %}
 
 {% for file in files %}
-  ## {{ file.title }}
+  <h3>{{ file.title }}</h3>
   
   {{ file.content }}
   
