@@ -32,3 +32,7 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+collections:
+  content_sidebar:
+    output: false # <--- doesn't matter if this is true or false [@groundh0g]
